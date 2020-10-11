@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+.padding{
+    padding:5px;
+    }  
+/*--nav--*/
+.navbar{ 
+    padding-top: 1rem;
+    background:whitesmoke;
+    }
+
+.navbar-brand{
+    color:#34495e;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left:2rem;
+    padding-right:2rem;
+    }
+
+.navbar-toggler{
+    outline:none; 
+    }
+
+.navbar-brand:hover{
+    color:#34495e;
+    }
+
+.navbar-collapse{
+background: whitesmoke;
+}
+
+.navbar .navbar-nav .nav-link{
+padding:10px;
+}
+
+.navbar-nav li :hover{
+background: grey;
+color:white;      
+border-radius: 10px;
+}
+
+.navbar-nav li a{
+text-transform: uppercase;
+letter-spacing: 2px;
+color:#34495e; 
+text-align: center;
+transition: all 0.5s ;
+}
+/*-- end nav--*/
+
+/*video*/
+#video{
+    padding-top:6rem;
+    padding-bottom:4rem;
+}
+/*end video*/
+
+/* introduction */
+#introduction{
+    padding-top:6rem;
+    padding-bottom:6rem;
+}
+
+.main{
+    padding-bottom:2rem;
+}
+
+.second p{
+    font-size:0.85rem;
+    margin-bottom:0;
+}
+
+
+/* end introduction */
+
+/*COE*/
+#C-O-E{
+    padding-top:4rem;
+    
+}
+
+.coe{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text{
+    color:#000;
+}
+
+.card .card-img-overlay .card-body{
+    padding:5rem ;
+}
+/*end COE*/
+
+/*contact*/
+#contact h2{
+    font-size:1rem;
+    text-transform:uppercase;
+}
+#contact h1{
+font-size: 1.2rem;
+text-transform: uppercase;
+}
+#contact p{
+text-transform: uppercase;
+font-size: 0.8rem;
+}
+.fab{
+font-size: 50px;
+}
+/*end contact*/
+
+#footer{
+background: #ecf0f1;
+padding-top:2rem;
+padding-bottom: 2rem;
+}
